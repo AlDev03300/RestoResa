@@ -1,66 +1,46 @@
-🍽️ RestoResa
-RestoResa est une application web (fictive) de réservation de restaurants. Elle permet aux utilisateurs de découvrir, réserver et évaluer des établissements en quelques clics. 
+# 🍽️ RestoResa
+
+RestoResa est une application web fictive de réservation de restaurants.
+
+Elle permet aux utilisateurs de découvrir, réserver et évaluer des établissements en quelques clics.
+
 Le projet permet d’expérimenter les workflows de contribution, les pull requests, la gestion d’issues et le versionnement collaboratif, comme dans un environnement professionnel réel.
 
+## Pour bien démarrer
 
-Pour bien démarrer
-Ce guide te permettra d’exécuter une version locale du projet pour le développement et les tests.  
-La section _Déploiement_ décrit comment mettre le projet en production.
+Ce projet a été conçu comme support pédagogique pour découvrir les bonnes pratiques de collaboration avec Git et GitHub.
 
-Prérequis
-Avant de cloner le projet, assure-toi d’avoir installé :
-- Git
-- Un éditeur de code (VS Code recommandé)
-- Un navigateur moderne type Google Chrome 
+Tu vas notamment apprendre à :
 
-Installation locale
-1. Clone le dépôt sur ta machine :
+- consulter un dépôt GitHub ;
+- forker un projet ;
+- cloner un dépôt en local ;
+- modifier un fichier ;
+- utiliser Git pour suivre tes modifications ;
+- créer des commits ;
+- traiter une issue ;
+- proposer une contribution via une pull request.
+
+Aucune installation de dépendances n’est nécessaire pour réaliser les exercices proposés dans ce dépôt.
+
+## Prérequis
+
+Avant de commencer, assure-toi d’avoir :
+
+- Git installé sur ton ordinateur ;
+- un éditeur de code, comme Visual Studio Code ;
+- un navigateur web moderne ;
+- un compte GitHub personnel.
+
+## Travailler sur le projet en local
+
+### 1. Forke le dépôt
+
+Commence par créer une copie du projet sur ton propre compte GitHub en cliquant sur le bouton `Fork`.
+
+### 2. Clone ton fork sur ton ordinateur
+
+Récupère ensuite l’adresse de ton propre fork, puis utilise la commande :
 
 ```bash
-git clone https://github.com/Berenice-Oravendis/restoresa.git 
-cd restoresa
-````
-
-2. Installe les dépendances :
-```bash
-npm install
-```
-
-3. Démarre le serveur de développement :
-```bash
-npm run dev
-```
-
-4. L’application est accessible sur `http://localhost:3000`
-
-
-Lancer les tests
-*(à personnaliser selon la stratégie choisie)*
-
-```bash
-npm run test
-```
-
-Déploiement
-
-Tu peux déployer RestoResa sur différents éléments dont :
-* Serveur VPS (via FTP ou CI/CD)
-
-> N'oublie pas de configurer tes variables d'environnement `.env`.
-
-Contribuer
-Merci de lire les fichiers suivants avant toute contribution :
-
-* Contributing.md
-* Code_of_conduct.md
-
-
-Auteurs
-* Berenice-Oravendis – Mainteneur principal
-* Contributions bienvenues via pull requests !
-
-
-Licence
-Ce projet est sous licence MIT – voir le fichier "License" pour plus d'informations.
-
-*RestoResa est un projet fictif à but pédagogique, développé dans le cadre de formations au développement web.*
+git clone https://github.com/TON-UTILISATEUR/RestoResa.git
