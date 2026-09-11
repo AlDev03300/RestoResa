@@ -1,3 +1,4 @@
+````markdown
 # 🍽️ RestoResa
 
 RestoResa est une application web fictive de réservation de restaurants.
@@ -44,3 +45,85 @@ Récupère ensuite l’adresse de ton propre fork, puis utilise la commande :
 
 ```bash
 git clone https://github.com/TON-UTILISATEUR/RestoResa.git
+````
+
+Place-toi ensuite dans le dossier du projet :
+
+```bash
+cd RestoResa
+```
+
+Tu peux maintenant ouvrir le projet dans Visual Studio Code.
+
+## Comprendre les fichiers du projet
+
+Avant de commencer une contribution, prends le temps de consulter les fichiers suivants :
+
+* `README.md` : présente le projet et son fonctionnement ;
+* `Contributing.md` : explique les règles à respecter pour contribuer ;
+* `Code_of_conduct.md` : présente les règles de comportement à adopter dans le cadre du projet.
+
+## Contribuer
+
+Les tâches à réaliser sont proposées sous forme d’issues GitHub.
+
+Avant de modifier un fichier :
+
+1. consulte les issues disponibles ;
+2. choisis l’issue que tu souhaites traiter ;
+3. lis attentivement la demande ;
+4. effectue la modification en local.
+
+Après avoir modifié un fichier, vérifie l’état de ton projet :
+
+```bash
+git status
+```
+
+Ajoute ensuite le fichier modifié :
+
+```bash
+git add nom-du-fichier
+```
+
+Crée ton commit avec un message clair :
+
+```bash
+git commit -m "Description de la modification"
+```
+
+Puis envoie tes modifications sur ton fork :
+
+```bash
+git push origin main
+```
+
+Une fois la modification envoyée sur GitHub, tu peux créer une pull request afin de proposer ta contribution au dépôt principal.
+
+## Pull requests
+
+Une pull request permet de proposer une modification au projet principal.
+
+Lors de sa création :
+
+* indique clairement ce que tu as modifié ;
+* précise l’issue concernée ;
+* utilise un titre compréhensible ;
+* ajoute une courte description de ta contribution.
+
+Dans un véritable projet professionnel, un autre membre de l’équipe pourrait ensuite relire ton travail, demander des modifications ou accepter ta contribution.
+
+## Auteurs
+
+* Berenice-Oravendis – Mainteneur principal
+* Contributions bienvenues via les pull requests !
+
+## Licence
+
+Ce projet est sous licence MIT. Consulte le fichier `License` pour plus d’informations.
+
+---
+
+*RestoResa est un projet fictif à but pédagogique, développé dans le cadre de formations au développement web. Il a pour objectif principal de permettre aux apprenants de pratiquer la collaboration avec Git et GitHub.*
+
+```
