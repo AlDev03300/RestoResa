@@ -7,6 +7,8 @@ Elle permet aux utilisateurs de découvrir, réserver et évaluer des établisse
 
 Le projet permet d’expérimenter les workflows de contribution, les pull requests, la gestion d’issues et le versionnement collaboratif, comme dans un environnement professionnel réel.
 
+
+
 ## Pour bien démarrer
 
 Ce projet a été conçu comme support pédagogique pour découvrir les bonnes pratiques de collaboration avec Git et GitHub.
