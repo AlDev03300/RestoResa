@@ -2,6 +2,8 @@ Contribuer à RestoResa
 Avant toute chose, merci de vouloir contribuer au projet RestoResa ! Je m'appelle Bérénice.
 Ton engagement participe directement à la création d’une application de réservation de restaurants plus inclusive, performante et accessible à tous. 
 
+Je corrige une faute.
+
 Que peut-on faire ensemble ?
 RestoResa recherche des contributeurs pour :
 - Corriger des bugs
